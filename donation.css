@@ -1,0 +1,129 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.left {
+  width: 194px;
+  height: 22px;
+  float: left;
+  padding: 28px;
+  margin: -24px;
+}
+.right {
+  height: 85px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.right a {
+  /* width: 100px; */
+  text-decoration: none;
+}
+.right a:hover {
+  text-decoration: underline;
+}
+.left a {
+  color: rgb(194, 206, 217);
+  font-size: 35px;
+  margin-left: 15px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+ul li {
+  float: right;
+  padding: 40px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul li a {
+  color: rgb(10, 7, 7);
+}
+
+.ll {
+  height: 90px;
+  width: 289px;
+  margin-left: 69px;
+  margin-top: 2px;
+}
+.heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+margin-left: 617px;
+margin-top: 40px;
+}
+.cll{
+    background-color:#E2F4FA;
+}
+
+
+.card1{
+height: 342px;
+width: 535px;
+  background-color: #EFEFEF;
+    margin-left: 50px;
+    position: absolute;
+top: 240px;
+bottom: 100px;
+left: 100px;
+  box-shadow: 2px 2px 20px #5b197b;
+  border-radius: 15px;
+  border: 1px solid ;
+    
+}
+.card2{
+height: 342px;
+width: 535px;
+position: absolute;
+top: 240px;
+bottom: 100px;
+left: 753px;
+background-color: #EFEFEF;
+border: 1px solid black;
+margin-left: 50px;
+  box-shadow: 2px 2px 20px #5b197b;
+  border-radius: 15px;
+
+    
+}
+.h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.h3{
+      font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.h2{
+      font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.aaa{
+    text-align: center;
+    padding:5px;
+    margin-top: 5px;
+    width:525px;
+    margin-left: 4px;
+}
+.ss{position: relative;
+    left: 135px;
+    height: 270px;
+  width: 286px;
+
+}
+.map{
+    width: 100%;
+    margin-top: 435px;
+    border: 1px solid #E2F4FA;
+}

@@ -1,0 +1,234 @@
+* {
+  background-color: #f0f2f5;
+  font-family: Helvetica, arial, sans-serif;
+}
+.logo {
+    position: relative;
+  width: 409px;
+  left: 478px;
+  bottom: -115px;
+}
+
+
+
+.container {
+  position: absolute;
+  background-color: #f0f2f5;
+  align-self: center;
+  height: 605px;
+  width: 419px;
+  padding-top: -10px;
+  padding-left: 6px;
+  padding-right: 11px;
+  padding-bottom: 10px;
+
+  margin-top: 110px;
+  margin-left: 527px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.text {
+  text-align: center;
+}
+
+.line {
+  opacity: 0.4;
+}
+.headings {
+  position: relative;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 25px;
+  margin-bottom: -11px;
+}
+.p {
+  margin-bottom: 11px;
+  opacity: 0.7;
+}
+
+.namm {
+  margin-bottom: -10px;
+  margin-bottom: -9px;
+}
+
+.name {
+  display: inline-block;
+  width: 188px;
+  height: 43.2px;
+  padding-left: 1px;
+  border: none;
+  border-radius: 7px;
+  padding: 7px;
+  margin-left: 2px;
+}
+.surname {
+  border-radius: 7px;
+  display: inline-block;
+  width: 190px;
+  height: 41.2px;
+  padding: 7px;
+}
+
+.email {
+  border-radius: 7px;
+  height: 39.6px;
+  width: 399px;
+  /* margin-top: 5px; */
+  font-size: 17px;
+  padding: 14px 10px;
+}
+.pass {
+  border-radius: 7px;
+  position: relative;
+  /* margin-top: 5px; */
+  width: 399px;
+  height: 39.6px;
+  left: 5px;
+}
+
+.int::placeholder {
+  position: relative;
+  border-radius: 7px;
+  width: 199px;
+  height: 39.6px;
+  border-radius: 7px;
+}
+.ln::placeholder {
+  border-radius: 7px;
+  height: 39.6px;
+  width: 199px;
+}
+
+.pass::placeholder {
+  width: 399px;
+  height: 39.6px;
+}
+.dob {
+  margin-top: 30px;
+  width: 33.33px;
+}
+
+select {
+  width: 125px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+}
+span {
+  /* margin-top:10px; */
+  margin-left: 10px;
+
+  padding: 10px;
+  padding-right: 65px;
+  height: 25px;
+  border: 1px solid #ccd0d5;
+  padding: 10px 0 0 10 px;
+  border-radius: 5px;
+}
+.radio1 {
+  position: relative;
+  bottom: 18px;
+  left: 96px;
+}
+.radio2 {
+  position: relative;
+  left: 215px;
+
+  bottom: 18px;
+}
+.radio3 {
+  position: relative;
+  left: 334px;
+
+  bottom: 18px;
+}
+.btn1 {
+  position: relative;
+  padding: 9px;
+  left: 110px;
+  bottom: -20px;
+  background-color: #5b197b;
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+  height: 42px;
+  width: 194px;
+  border: none;
+  border-radius: 7px;
+}
+.btn1:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.p3 {
+  color: #777777;
+  font-size: 11px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.p3 a {
+  text-decoration: none;
+}
+.p3 a:hover {
+  text-decoration-line: underline;
+}
+
+.account {
+  text-decoration: none;
+  position: relative;
+  top: 74px;
+  color: #5b197b;
+  right: 86px;
+  font-size: 17px;
+}
+.footer {
+  position: relative;
+  left: -300px;
+  width: 980px;
+  height: 100px;
+  margin-top: 165px;
+  background-color: #fff;
+}
+
+div p1 {
+  font-size: 11px;
+  color: #737373;
+  padding-right: 5px;
+}
+div p1 a {
+  color: #5b197b;
+  font-size: 11px;
+  text-decoration: none;
+  text-decoration-line: none;
+  padding: 15px;
+}
+.lang {
+  color: #5b197b;
+  font-size: 11px;
+  padding-right: 13px;
+  text-decoration: none;
+}
+div p2 {
+  color: #5b197b;
+  font-size: 11px;
+  border: none;
+  text-decoration: none;
+  padding-right: 13px;
+}
+div p2 a {
+  color: #5b197b;
+  text-decoration: none;
+  padding-right: 13px;
+}
+.copyright {
+  color: #737373;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 11px;
+}

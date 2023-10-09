@@ -1,0 +1,381 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.left {
+  width: 194px;
+  height: 22px;
+  float: left;
+  padding: 28px;
+  margin: -24px;
+}
+.right {
+  height: 85px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.right a {
+  /* width: 100px; */
+  text-decoration: none;
+}
+.right a:hover {
+  text-decoration: underline;
+}
+.left a {
+  color: rgb(194, 206, 217);
+  font-size: 35px;
+  margin-left: 15px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+ul li {
+  float: right;
+  padding: 40px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul li a {
+  color: rgb(10, 7, 7);
+}
+
+.ll {
+  height: 90px;
+  width: 289px;
+  margin-left: 69px;
+  margin-top: 2px;
+}
+.heading {
+  width: 100%;
+  height: 708px;
+}
+.himg {
+  width: 100%;
+  height: 708px;
+  border: solid 2px #ddcaed;
+}
+.textbox {
+  position: relative;
+  bottom: 410px;
+  text-decoration: none;
+}
+.textbox h1 {
+  font-family: sans-serif;
+  position: relative;
+  /* left: 100px; */
+  color: white;
+  font-size: 50px;
+}
+.h11 {
+  margin-left: 100px;
+}
+.textbox p {
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 100px;
+  color: white;
+  font-size: 27px;
+}
+.butn1 {
+  border: 1px solid white;
+  border-radius: 6px;
+  font-weight: bold;
+  position: relative;
+  left: 100px;
+  bottom: 390px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #00b6e6;
+  color: white;
+  cursor: pointer;
+}
+.butn1:hover {
+  background-color: #f40707;
+}
+.butn2 {
+  border: 1px solid white;
+  position: relative;
+  left: 100px;
+  font-weight: bold;
+  bottom: 390px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 6px;
+  background-color: #f40707;
+  color: white;
+  cursor: pointer;
+}
+.butn2:hover {
+  background-color: #00b6e6;
+}
+.cardsec {
+  background-color: #00b6e6;
+  height: 620px;
+}
+
+.he h2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: white;
+  font-size: 40px;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+}
+.card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.cr {
+  margin-top: 35px;
+}
+.class1 {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+  top: 10px;
+}
+span {
+  color: #5b197b;
+}
+.pwi {
+  width: 100%;
+  height: 450px;
+  background-color: #ffffff;
+  color: black;
+}
+.pi {
+  width: 50%;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+}
+.ipp {
+  position: relative;
+  bottom: 426px;
+  left: 817px;
+  height: 299px;
+  width: 559px;
+  border: 7px solid white;
+  box-shadow: 2px 2px 20px black;
+}
+
+.donatebtn {
+  position: relative;
+  left: 866px;
+  bottom: 416px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding-left: 52px;
+  /* padding-right: 52px; */
+  background-color: #00b6e6;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 1px 1px 8px black;
+}
+
+.donatebtn1 {
+  position: relative;
+  left: 810px;
+  bottom: 416px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  /* padding-left: 52px; */
+  padding-right: 52px;
+  background-color: #f40707;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 1px 1px 8px black;
+}
+#imgsss {
+  display: flex;
+  justify-content:flex-start;
+  height: 177px;
+  width: 100px;
+  position: relative;
+  top: 215px;
+}
+.vid {
+  position: absolute;
+  right: 447px;
+  top: 2357px;
+  border: 7px solid white;
+  box-shadow: 1px 1px 8px black;
+}
+.nnnnn {
+  position: relative;
+  top: 32px;
+  margin-left: 500px;
+  font-weight: 400;
+  font-size: 42px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.tr {
+  position: relative;
+  top: 33px;
+}
+.bgss {
+  position: absolute;
+  top: 2740px;
+  width: 100%;
+  border: 1px solid #5b197b;
+  height: 601px;
+  background-color: #e2f4fa;
+  width: 100%;
+}
+.footer {
+  position: relative;
+  top: 65px;
+  height: 200px;
+  background-color: #ffffff;
+  width: 100%;
+}
+.hhh {
+  width: 235px;
+  height: 68px;
+  margin-left: 78px;
+  margin-top: 10px;
+}
+.icon {
+  position: relative;
+  display: flex;
+  top: -5px;
+  left: 14px;
+  height: 93px;
+  width: 100px;
+}
+
+#ggg {
+  color: white;
+  background-color: #f40707;
+  margin: 20px;
+  padding: 19px;
+  border-radius: 112px;
+}
+#ggg:hover {
+  background-color: #00b6e6;
+}
+.h11111 {
+  font-size: x-large;
+  font-weight: 700;
+  position: relative;
+}
+.map {
+  position: relative;
+  height: 50px;
+  width: 200px;
+}
+#ppp {
+  position: absolute;
+  top: 26px;
+  left: 1158px;
+  width: 217px;
+  height: 154px;
+}
+.mapp {
+  position: absolute;
+
+  width: 400px;
+  height: 154px;
+  left: 574px;
+  top: 11px;
+}
+.opp {
+  position: relative;
+  height: 182px;
+  width: 514px;
+  right: 46px;
+  top: -10px;
+}
+.onesec {
+  position: relative;
+  top: 27px;
+}
+.footer2 {
+  height: 80px;
+  background-color: #97d8ef;
+  border: #e2f4fa;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-style: dotted;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+.newdiv {
+  position: relative;
+  top: 15px;
+}
